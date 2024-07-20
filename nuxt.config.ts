@@ -1,10 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: ['@nuxt/ui'],
+
   // (optional) Enable the Nuxt devtools
   devtools: { enabled: true },
+
   // Enable SSG
   ssr: false,
+
   vite: {
     // Better support for Tauri CLI output
     clearScreen: false,
@@ -27,4 +30,6 @@ export default defineNuxtConfig({
       },
     },
   },
+
+  compatibilityDate: '2024-07-20',
 })
