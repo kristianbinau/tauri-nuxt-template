@@ -13,20 +13,20 @@
     "tauri": "tauri"
   },
   "dependencies": {
-    "@nuxt/ui": "^2.17.0",
-    "@tauri-apps/api": "^2.0.0-beta.0",
-    "@tauri-apps/plugin-shell": "^2.0.0-beta.8",
     "nuxt": "^3.12.4",
-    "vue": "^3.4.33",
-    "vue-router": "^4.4.0",
-    "zod": "^3.23.8"
+    "@nuxt/ui": "^2.18.4",
+    "vue": "^3.4.37",
+    "vue-router": "^4.4.3",
+    "zod": "^3.23.8",
+    "@tauri-apps/api": ">=2.0.0-rc.0",
+    "@tauri-apps/plugin-shell": ">=2.0.0-rc.0"
   },
   "devDependencies": {
-    "@tauri-apps/cli": "^2.0.0-beta.0",
-    "@vitejs/plugin-vue": "^5.0.5",
+    "@vitejs/plugin-vue": "^5.1.2",
     "internal-ip": "^8.0.0",
-    "typescript": "^5.5.3",
-    "vite": "^5.3.4",
-    "vue-tsc": "^2.0.26"
+    "typescript": "^5.5.4",
+    "vite": "^5.4.0",
+    "vue-tsc": "^2.0.29",
+    "@tauri-apps/cli": ">=2.0.0-rc.0"
   }
 }
